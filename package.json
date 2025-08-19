@@ -1,17 +1,23 @@
 {
-  "name": "motel-vercel",
-  "version": "1.0.0",
   "private": true,
+  "name": "motel-next",
+  "version": "0.1.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.2.5",
     "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "@vercel/postgres": "^0.10.0"
+    "react-dom": "18.3.1"
   },
-  "engines": { "node": ">=18.17" }
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@types/react": "^18.3.3",
+    "@types/node": "^20.14.10",
+    "eslint": "^9.7.0",
+    "eslint-config-next": "14.2.5"
+  }
 }
