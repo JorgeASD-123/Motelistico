@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "motel-next",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,10 +14,10 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.5",
     "typescript": "^5.5.4",
     "@types/react": "^18.3.3",
-    "@types/node": "^20.14.10",
-    "eslint": "^9.7.0",
-    "eslint-config-next": "14.2.5"
+    "@types/node": "^20.14.10"
   }
 }
